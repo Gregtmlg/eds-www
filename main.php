@@ -1,7 +1,7 @@
 <nav>
     <table border="0" style="width: 100%; padding: 10px; background-color: rgb(1, 1, 78); font-family: Arial, Helvetica, sans-serif; font-weight: bold;" >
         <tr>
-            <td style="text-align: center; " ><a class="head_nav" href="index.php?page=pha">Surface</a></td>
+            <td style="text-align: center; " ><a class="head_nav" href="index.php?page=surface">Surface</a></td>
 
             <td style="text-align: center; "><a class="head_nav" href="index.php?page=sous_marine">Sous-Marine</a></td>
 
