@@ -1,3 +1,22 @@
+<nav>
+    <table border="0" style="width: 100%; padding: 10px; background-color: rgb(1, 1, 78); font-family: Arial, Helvetica, sans-serif; font-weight: bold;" >
+        <tr>
+            <td style="text-align: center; " ><a class="head_nav" href="index.php?page=pha" target="_blank">Surface</a></td>
+
+            <td style="text-align: center; "><a class="head_nav" href="index.php?page=sous_marine">Sous-Marine</a></td>
+
+            <td style="text-align: center; "><a class="head_nav" href="index.php?page=aero_navale">Force Aéro-Navale</a></td>
+
+            <td style="text-align: center; "><a class="head_nav" href="index.php?page=boutique">Boutique</a></td>
+            
+           
+        </tr>
+    </table>
+   
+<nav>
+
+<hr>
+
 <img src="images\bandeau site marque-01_1920x768.png" alt="Bandeau Marine Nationale" width=100% height=100%/>
 
 <p>

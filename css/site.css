@@ -7,3 +7,23 @@ footer {
 header {
     color: rgb(254, 254, 255)
     }
+
+.head_nav:link, .head_nav:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: URL;
+}
+
+.head_nav:link:active, .head_nav:visited:active {
+  color: rgb(255, 255, 255);
+}
+
+.head_hr { 
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0px;
+  }

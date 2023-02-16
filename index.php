@@ -13,30 +13,7 @@
     ?>
 
 
-<hr >
-
-
-
-<nav>
-    <table border="0" style="width: 100%; padding: 10px; background-color: rgb(1, 1, 78);  " >
-        <tr>
-            <td style="text-align: center; " ><a href="index.php?page=pha">Surface</a></td>
-
-            <td style="text-align: center; "><a href="index.php?page=sous_marine">Sous-Marine</a></td>
-
-            <td style="text-align: center; "><a href="index.php?page=aero_navale">Force Aéro-Navale</a></td>
-
-            <td style="text-align: center; "><a href="index.php?page=boutique">Boutique</a></td>
-            
-           
-        </tr>
-    </table>
-
-   
-<nav>
-
-<hr>
-<br>
+<hr class="head_hr" style="height: 1px; background-color: rgb(255, 255, 255)">
 
 <?php 
     if(isset($_GET['page'])) {
