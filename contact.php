@@ -11,8 +11,9 @@
 </div>';
 echo '<br><br>';
   }
-
 ?>
+
+<br>
 
   <form action="index.php?page=contact" method="post" style="text-align: center;">
     <label for="fname">Prénom:</label>
