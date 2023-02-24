@@ -7,7 +7,7 @@
 
 <body>
 
-    <img src="images\Le-Mistral-20200217_105210-001.jpg" alt="pha Mistral" width=100% height=100%/>
+    <img class="center-fit" src="images\Le-Mistral-20200217_105210-001.jpg" alt="pha Mistral"/>
 
     <br>
 
@@ -23,9 +23,6 @@
         
         <label for="lname">Last name:</label>
         <input type="text" id="lname" name="lname"><br><br>
-      
-        <label for="lname">password:</label>
-        <input type="password" id="lname" name="lname"><br><br>
         
         <input type="submit" value="Submit"><br><br>
         

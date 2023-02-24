@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<html>
+<html lang="fr">
 
 <head>
+    <title>Livret de la flotte</title>
     <link href="css\site.css" type="text/css" rel="stylesheet" />
 </head>
 
@@ -16,10 +17,10 @@
 <hr class="head_hr" style="height: 1px; background-color: rgb(255, 255, 255)">
 
 <?php
-    function exception_error_handler($errno, $errstr, $errfile, $errline ) {
-        throw new ErrorException($errstr, $errno, 0, $errfile, $errline);
-        }
-        set_error_handler("exception_error_handler");
+    // function exception_error_handler($errno, $errstr, $errfile, $errline ) {
+    //     throw new ErrorException($errstr, $errno, 0, $errfile, $errline);
+    //     }
+    //     set_error_handler("exception_error_handler");
 ?>
 
 <?php 
@@ -42,6 +43,10 @@
         } 
         catch (Exception $e) {
             include 'error_page.php';
+        }
+
+        if(isset($_GET['bateau'])) {
+            
         }
             
     } 
